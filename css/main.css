@@ -3,5 +3,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
+.container {
+    width: 80%;
+    background-color: grey;
+    margin: 30px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 111px 20px;
+}
+
+.product-gallery {
+    height: 800px;
+    width: 470px;
+    background-color: green;
+}
+
+.model {
+    height: 700px;
+    width: auto;
+}
