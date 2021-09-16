@@ -33,25 +33,49 @@ li {
     cursor: pointer;
 }
 
-.product-gallery:hover .model-1 {
+.product-gallery:hover .model-1a {
     display: none;
 }
 
-.product-gallery:hover .model-2 {
+.product-gallery:hover .model-1b {
     display: block;
 }
 
-.model-1 {
+.model-1a {
     max-width:100%;
     max-height:100%;
 }
 
-.model-2 {
+.model-1b {
     max-width:100%;
     max-height:100%;
 }
 
-.model-2 {
+.model-1b {
+    max-width:100%;
+    max-height:100%;
+    display: none;
+}
+
+.product-gallery:hover .model-2a {
+    display: none;
+}
+
+.product-gallery:hover .model-2b {
+    display: block;
+}
+
+.model-2a {
+    max-width:100%;
+    max-height:100%;
+}
+
+.model-2b {
+    max-width:100%;
+    max-height:100%;
+}
+
+.model-2b {
     max-width:100%;
     max-height:100%;
     display: none;
