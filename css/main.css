@@ -7,7 +7,7 @@
 }
 
 main {
-    width: 76%;
+    width: 78%;
     margin: 30px auto;
 }
 
@@ -236,4 +236,8 @@ li {
     color: white;
     font-size: 14px;
     padding-top: 4px;
+}
+
+.product-gallery .sustainable:nth-child(7) {
+    left: 0px;
 }
