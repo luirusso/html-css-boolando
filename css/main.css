@@ -210,6 +210,10 @@ li {
     text-align: center;
 }
 
+.heart:hover {
+    color: red;
+}
+
 .discount-tag {
     height: 25px;
     width: 43px;
