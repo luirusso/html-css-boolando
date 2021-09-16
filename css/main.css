@@ -6,9 +6,13 @@
     font-family: sans-serif;
 }
 
-.container {
+main {
     width: 76%;
     margin: 30px auto;
+}
+
+.container {
+    width: 100%;
 }
 
 ul {
@@ -65,7 +69,7 @@ li {
     text-align: center;
 }
 
-.box2 {
+.discount-tag {
     height: 25px;
     width: 43px;
     background-color: #EB0037;
@@ -77,7 +81,7 @@ li {
     padding-top: 4px;
 }
 
-.box3 {
+.sustainable {
     height: 25px;
     width: 96px;
     background-color: #00875A;
