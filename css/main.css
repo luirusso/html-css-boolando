@@ -21,13 +21,14 @@ ul {
 
 li {
     display: inline-block;
+    text-align: center;
 }
 
 .product-gallery {
     position: relative;
     position: relative;
     width: 32%;
-    margin: 10px -112px;
+    margin: 10px auto;
 }
 
 .model {
