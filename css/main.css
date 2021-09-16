@@ -28,12 +28,33 @@ li {
     position: relative;
     position: relative;
     width: 32%;
-    margin: 10px auto;
+    margin: 0 8px;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
 
-.model {
+.product-gallery:hover .model-1 {
+    display: none;
+}
+
+.product-gallery:hover .model-2 {
+    display: block;
+}
+
+.model-1 {
     max-width:100%;
     max-height:100%;
+}
+
+.model-2 {
+    max-width:100%;
+    max-height:100%;
+}
+
+.model-2 {
+    max-width:100%;
+    max-height:100%;
+    display: none;
 }
 
 .product-brand {
@@ -74,7 +95,7 @@ li {
     width: 43px;
     background-color: #EB0037;
     position: absolute;
-    bottom: 140px;
+    bottom: 74px;
     left: 0px;
     color: white;
     font-size: 14px;
@@ -87,7 +108,7 @@ li {
     background-color: #00875A;
     position: absolute;
     left: 48px;
-    bottom: 139px;
+    bottom: 73px;
     color: white;
     font-size: 14px;
     padding-top: 4px;
