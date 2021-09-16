@@ -7,8 +7,7 @@
 }
 
 .container {
-    width: 80%;
-    background-color: grey;
+    width: 76%;
     margin: 30px auto;
 }
 
@@ -20,16 +19,33 @@ li {
     display: inline-block;
     width: 30%;
     text-align: center;
-    margin: 111px 20px;
 }
 
 .product-gallery {
     height: 800px;
     width: 470px;
-    background-color: green;
 }
 
 .model {
     height: 700px;
     width: auto;
+}
+
+.product-brand {
+    text-align: left;
+    font-size: 14px;
+}
+
+.product-name {
+    text-align: left;
+}
+
+.price {
+    text-align: left;
+    color: red;
+}
+
+.discount {
+    color: black;
+    text-decoration: line-through;
 }
