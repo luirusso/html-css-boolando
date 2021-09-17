@@ -38,7 +38,7 @@ li {
 }
 
 .product-gallery:hover .image2 {
-    display: block;
+    display: inline-block;
 }
 
 .image1 {
@@ -81,7 +81,7 @@ li {
     top: 20px;
     right: 0;
     font-size: 30px;
-    padding-top: 7px;
+    padding-top: 8px;
     text-align: center;
 }
 
